@@ -1,0 +1,59 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {
+        "httpMethod": "POST",
+        "path": "webpilot-test",
+        "options": {}
+      },
+      "type": "n8n-nodes-base.webhook",
+      "typeVersion": 2.1,
+      "position": [
+        0,
+        0
+      ],
+      "id": "dbf828ee-0dfd-42e1-8ab3-0e90955cceb2",
+      "name": "Webhook",
+      "webhookId": "d7eceb9a-7227-4a5f-8d11-febda70074a1"
+    }
+  ],
+  "pinData": {
+    "Webhook": [
+      {
+        "json": {
+          "headers": {
+            "host": "localhost:5678",
+            "user-agent": "curl/8.17.0",
+            "accept": "*/*",
+            "content-type": "application/json",
+            "content-length": "46"
+          },
+          "params": {},
+          "query": {},
+          "body": {
+            "name": "Reshma",
+            "project": "n8n webhook test"
+          },
+          "webhookUrl": "http://localhost:5678/webhook-test/webpilot-test",
+          "executionMode": "test"
+        },
+        "pairedItem": {
+          "item": 0
+        }
+      }
+    ]
+  },
+  "connections": {},
+  "active": false,
+  "settings": {
+    "executionOrder": "v1",
+    "availableInMCP": false
+  },
+  "versionId": "4f2c35f5-258e-4dc2-b116-8f0ce942f720",
+  "meta": {
+    "instanceId": "8ca57ef5123cf2e0402bad6c884b57079168b9bb7a257c02f0bd59b0438b9257"
+  },
+  "id": "ijyIBSUW1seIuxjB_8V3H",
+  "tags": []
+}
